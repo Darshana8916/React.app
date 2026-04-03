@@ -1,0 +1,382 @@
+body{
+    background-color:rgb(235, 227, 216) ;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  font-size: 48px;
+  margin: 0;
+  color: #8B4513;
+}
+
+.coffee-icon {
+  width: 60px;
+  height: auto;
+  margin-left: 15px;
+}
+
+
+.main {
+  max-width: 1200px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.welcome {
+  font-size: 42px;
+  margin-bottom: 20px;
+  color: #8B4513;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.description1 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #555;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #D2691E;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* Hero Section */
+.hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin: 50px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, rgba(46, 139, 87, 0.1), rgba(210, 105, 30, 0.1));
+  border-radius: 15px;
+}
+
+.hero-content h2 {
+  color: #8B4513;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat-number {
+  display: block;
+  font-size: 36px;
+  font-weight: bold;
+  color: #2E8B57;
+}
+
+.stat-label {
+  font-size: 14px;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu Preview */
+.menu-preview {
+  margin: 50px 0;
+}
+
+.menu-preview h2 {
+  color: #8B4513;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.menu-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid #2E8B57;
+}
+
+.menu-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.menu-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.menu-item h3 {
+  color: #8B4513;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.menu-item p {
+  color: #666;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2E8B57;
+}
+
+/* Features */
+.features {
+  margin: 50px 0;
+}
+
+.features-title {
+  color: #8B4513;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.feature-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border: 2px solid #2E8B57;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.feature h4 {
+  color: #8B4513;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.feature span {
+  color: #666;
+  font-size: 14px;
+}
+
+.feature-icon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Testimonials */
+.testimonials {
+  margin: 50px 0;
+  background-color: rgba(46, 139, 87, 0.05);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.testimonials h2 {
+  color: #8B4513;
+  margin-bottom: 30px;
+  font-size: 32px;
+}
+
+.testimonial-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.testimonial {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-left: 5px solid #2E8B57;
+}
+
+.testimonial p {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.testimonial cite {
+  color: #8B4513;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* CTA Section */
+.cta-section {
+  margin: 50px 0;
+  background: linear-gradient(135deg, #2E8B57, #D2691E);
+  color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.cta-section h2 {
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.cta-section p {
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cta-btn {
+  padding: 15px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.cta-btn.primary {
+  background-color: white;
+  color: #2E8B57;
+}
+
+.cta-btn.primary:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+}
+
+.cta-btn.secondary {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.cta-btn.secondary:hover {
+  background-color: white;
+  color: #2E8B57;
+  transform: translateY(-2px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    flex-direction: column;
+  }
+
+  .coffee-icon {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main {
+    padding: 20px;
+  }
+
+  .welcome {
+    font-size: 32px;
+  }
+
+  .hero-section {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .hero-stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu-items,
+  .feature-list,
+  .testimonial-list {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cta-btn {
+    width: 200px;
+    text-align: center;
+  }
+}
