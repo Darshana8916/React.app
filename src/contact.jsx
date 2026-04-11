@@ -13,8 +13,6 @@ function Contact() {
             </header>
 
               <Navbar active ="contact"/>
-            
-
 
             <main className="main">
                 <h2 className="contact-title">Contact Us</h2>
