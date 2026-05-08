@@ -8,8 +8,6 @@ const root = createRoot(document.getElementById('root'));
 
 
 
-
-
   const pathname = window.location.pathname;
   console.log ("current pathname :" ,pathname);
 
